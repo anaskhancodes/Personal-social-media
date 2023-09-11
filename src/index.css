@@ -1,0 +1,118 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 147, 184);
+}
+
+.pro-card {
+  /* border: 2px solid #000000; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: #1fddff;
+  box-shadow: 0px 0px 20px 20px #00788d;
+}
+
+.pro-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  padding: 20px;
+  margin-left: 120px;
+  /* border: none; */
+  /* box-shadow: 0px 0px 20px 5px #000000; */
+}
+
+.pro-card .social-media h1 {
+  display: inline;
+  align-items: center;
+  font-size: 40px;
+  margin-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin-top: -10px; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.pro-card .social-media .icons {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 37px;
+  /* margin-top: ; */
+}
+
+.pro-card .social-media {
+  width: 500px;
+  /* background-image: linear-gradient(rgb(243, 207, 0), rgb(209, 178, 0)); */
+  background-color: white;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 8px 12px 11px 0px #519ba9;
+}
+
+
+
+@media only screen and (max-width: 425px){
+  .pro-card{
+    margin-top: 50px;
+  }
+
+  .pro-card img {
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    margin-left: 91px;
+  }
+
+  .pro-card .social-media{
+    width: 350px;
+    margin-top: 20px;
+  }
+  .pro-card .social-media h1{
+    font-size: 17px;
+  }
+
+  .social-media .social-media .icons{
+    font-size: 17px;
+  }
+}
+
+
+/* ------------------------------------------ */
+
+@media only screen and (max-width: 375px){
+  .pro-card{
+    margin-top: 50px;
+  }
+
+  .pro-card img {
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    margin-left: 48px;
+  }
+
+  .pro-card .social-media{
+    width: 250px;
+    margin-top: 20px;
+  }
+  .pro-card .social-media h1{
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .social-media .social-media .icons{
+    font-size: 17px;
+  }
+}
