@@ -4,23 +4,25 @@ body {
   display: flex;
   justify-content: center;
   /* background-color: rgb(0, 147, 184); */
-  background: linear-gradient(-40deg, rgb(66, 37, 235), 
-  rgb(13, 111, 136), rgb(42, 166, 197), rgb(87, 212, 129), rgb(0, 204, 255));
+  background: linear-gradient(-40deg, rgb(66, 37, 235),
+      rgb(13, 111, 136), rgb(42, 166, 197), rgb(87, 212, 129), rgb(0, 204, 255));
   background-size: 400% 400%;
   animation: bg 12s ease infinite;
 }
 
-@keyframes bg{
-  0%{
+@keyframes bg {
+  0% {
     background-position: 0% 50%;
   }
-  50%{
+
+  50% {
     background-position: 100% 100%;
   }
-  100%{
+
+  100% {
     background-position: 0% 50%;
   }
-  
+
 }
 
 .pro-card {
@@ -79,6 +81,22 @@ a {
   /* box-shadow: 0px 0px 20px 20px #3f3f3f59; */
 }
 
+h3 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 130px;
+  margin-top: -3px;
+  font-size: 24px;
+}
+p{
+  margin-left: 127px;
+  margin-top: -10px;  
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 @media only screen and (max-width: 425px) {
@@ -105,6 +123,15 @@ a {
   .social-media .social-media .icons {
     font-size: 17px;
   }
+
+  p{
+    margin-left: 46px;
+    margin-top: -10px
+  }
+
+  h3{
+    margin-left: 49px;
+  }
 }
 
 
@@ -116,10 +143,10 @@ a {
   }
 
   .pro-card img {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     padding: 5px;
-    margin-left: 48px;
+    margin-left: 35px;
   }
 
   .pro-card .social-media {
@@ -134,5 +161,15 @@ a {
 
   .social-media .social-media .icons {
     font-size: 17px;
+  }
+
+  h3{
+    margin-left: 13px;
+    font-size: 20px;
+  }
+
+  p{
+    margin-left: 13px;
+    font-size: 13px;
   }
 }

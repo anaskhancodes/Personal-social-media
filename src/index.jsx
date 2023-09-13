@@ -8,7 +8,11 @@ function Hi() {
   return (
     <div>
       <div className='pro-card'>
+        
         <img src={profileImage} alt="" />
+
+        <h3>Muhammad Anas Khan</h3>
+        <p>I'm a Passionate Front-end Developer</p>
 
         <a href="https://www.facebook.com/Bhoolay.lala/"><div className='social-media'><Facebook className='icons' /> <h1>Facebook</h1> </div></a>
         <a href="https://www.instagram.com/anaskhan_codes/"> <div className='social-media'><Instagram className='icons' /> <h1>Instagram</h1></div></a>
