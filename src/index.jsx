@@ -14,7 +14,7 @@ function Hi() {
         <h3>Muhammad Anas Khan</h3>
         <p>I'm a Passionate Front-end Developer</p>
 
-        <a href="https://www.facebook.com/Bhoolay.lala/"><div className='social-media'><Facebook className='icons' /> <h1>Facebook</h1> </div></a>
+        <a href="https://www.facebook.com/Anaskhancodes/"><div className='social-media'><Facebook className='icons' /> <h1>Facebook</h1> </div></a>
         <a href="https://www.instagram.com/anaskhan_codes/"> <div className='social-media'><Instagram className='icons' /> <h1>Instagram</h1></div></a>
         <a href="https://github.com/anaskhancodes"><div className='social-media'><Github className='icons' /> <h1>GitHub</h1></div></a>
         <a href="https://www.linkedin.com/in/muhammadanaskhancodes/"><div className='social-media'><Linkedin className='icons' /> <h1>Linkedin</h1></div></a>
